@@ -10,7 +10,7 @@
 * Dependencies: Spring Web, Thymeleaf
 * 구현: 회원 등록, 회원 목록 조회
 
-> hello-spring
+> core
 * 프로젝트
   * Spring Boot: v3.2.X
   * Language: Java
