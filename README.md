@@ -17,6 +17,13 @@
   * Packaging: Jar
   * Java: 17
 
-
+> servlet
+* 프로젝트
+  * Spring Boot: v3.2.X
+  * Language: Java
+  * Packaging: War
+  * Java: 17
+  * Dependencies: Spring Web, Lombok
+* 서블릿, JSP, MVC패턴, MVC 프레임워크, 스프링MVC 구조이해
 
 
