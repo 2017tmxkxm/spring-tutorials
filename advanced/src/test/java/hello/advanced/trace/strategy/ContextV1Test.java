@@ -96,4 +96,17 @@ public class ContextV1Test {
         });
         contextV2.execute();
     }
+
+    /**
+     * 전략 패턴 사용 - 람다
+     */
+    @Test
+    void strategyV4() {
+
+        ContextV1 contextV1 = new ContextV1(() -> log.info("비즈니스 로직1 실행"));
+        contextV1.execute();
+
+        ContextV1 contextV2 = new ContextV1(() -> log.info("비즈니스 로직2 실행"));
+        contextV2.execute();
+    }
 }
